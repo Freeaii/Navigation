@@ -1,0 +1,33 @@
+#notice-system {
+  width: 100%;
+  height: 100%;
+}
+#notice-system .notice-system-new {
+  color: #999999;
+  padding: 12px 0;
+  font-size: 14px;
+}
+#notice-system .notice-system-nomore {
+  font-size: 14px;
+  padding: 12px 0;
+  text-align: center;
+  color: #999999;
+}
+#notice-system .notice-system-divider {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#notice-system .notice-system-line {
+  display: block;
+  width: 240px;
+  height: 1px;
+  background-color: #d8d8d8;
+}
+#notice-system .notice-system-remind {
+  color: #999999;
+  margin: 0 12px;
+}
+/*# sourceMappingURL=index.css.map */

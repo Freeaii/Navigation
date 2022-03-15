@@ -1,0 +1,112 @@
+HTML, body, div, ul, ol, dl, li, dt, dd, blockquote, pre, form, fieldset, table, th, td, button {
+  border:none;
+  font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6{
+  font-size: 16px;
+}
+p{
+  font-size: 12px;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+form{
+  width: 100%;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+a{
+  text-decoration:none;
+  color: inherit;
+}
+input::-ms-clear{
+  display:none;
+}
+input{
+  border: none;
+  background-color: transparent;
+}
+input::-ms-reveal{
+  display:none;
+}
+input,textarea{
+  -webkit-appearance: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+input[type="number"]{
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+}
+input::-webkit-input-placeholder{
+  color: #ccc;
+}
+input::-ms-input-placeholder{
+  color: #ccc;
+}
+input::-moz-placeholder{
+  color: #ccc;
+}
+input[type=submit],input[type=button]{
+  cursor: pointer;
+}
+button[disabled],input[disabled] {
+  cursor: default;
+}
+img{
+  object-fit: cover;
+  border:none;
+}
+ul,ol,li{
+  list-style-type:none;
+}
+button{
+  background:transparent;
+  cursor: pointer;
+}
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+//浏览器滚动条设置
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+::-webkit-scrollbar
+{
+  width: 0;
+  height: 0;
+  background-color: #ffffff;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #bdbdbd;
+}
+/*滑块效果*/
+::-webkit-scrollbar-thumb:hover
+{
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.4);
+}
+

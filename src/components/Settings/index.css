@@ -1,0 +1,29 @@
+#navigation-setting {
+  width: 100%;
+  padding: 24px;
+}
+#navigation-setting .navigation-setting-header {
+  width: 100%;
+  height: 120px;
+}
+#navigation-setting .navigation-setting-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+#navigation-setting .navigation-setting-menu {
+  display: flex;
+  margin-top: 32px;
+  border-bottom: 2px solid #f1f2f5;
+}
+#navigation-setting .navigation-setting-menu li {
+  margin-bottom: -2px;
+  padding-bottom: 16px;
+  margin-right: 32px;
+}
+#navigation-setting .navigation-setting-menu li span {
+  letter-spacing: 1px;
+}
+#navigation-setting .navigation-li-choose {
+  border-bottom: 2px solid #6e5c8f;
+}
+/*# sourceMappingURL=index.css.map */
